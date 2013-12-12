@@ -17,7 +17,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px "Droid Sans", "Helvetica", "Arial", sans-serif;
+  font: 13.34px "Merriweather", "Droid Serif", serif;
   font-size: small;
 }
 
@@ -133,6 +133,7 @@ img.titleimage {
 
 .footer {
   font-size: 80%;
+  font-family: "Merriweather Sans", "Droid Sans", sans-serif;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
@@ -190,6 +191,8 @@ ul {
 }
 
 li {
+  font-family: "Merriweather Sans", "Droid Sans", sans-serif;
+  font-size: 95%;
   line-height: 1.5;
 }
 
