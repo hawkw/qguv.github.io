@@ -1,76 +1,11 @@
-<!DOCTYPE html>
-<!--
-  Main template for http://qguv.github.io/
-  (heavily) modified from Jekyll's default template.
-  vim:si:et:ts=2:sw=2
--->
-<html>
-  <head>
-    <link rel="icon" type="image/png" href="/favicon.png">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width">
+---
+layout: base
+vim: si:et:ts=2:sw=2
+---
 
-    <!-- syntax highlighting CSS -->
-    <link rel="stylesheet" href="/css/syntax.css">
+<div class="content">
+  <!-- begin content -->
+  {{ content }}
+  <!-- end content -->
+</div>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/main.css">
-  </head>
-  <body>
-    <div class="site">
-
-      <div class="header">
-        <a class="extra" href="/">main</a>
-        <a class="extra" href="https://github.com/qguv/">github</a>
-        <a class="extra" href="https://aur.archlinux.org/packages/?SeB=m&K=qguv">AUR submissions</a>
-      </div>
-      {% if page.pic %}
-        {% if page.piclink %}
-          <a href="{{ page.piclink }}">
-        {% endif %}
-        <br />
-        {% if page.picalt %}
-          <img class="titleimage" src="{{ page.pic }}" alt="{{ page.picalt }}">
-        {% else %}
-          <img class="titleimage" src="{{ page.pic }}">
-        {% endif %}
-        {% if page.piclink %}
-          </a>
-        {% endif %}
-        <h1 class="halftitle">
-      {% else %}
-        <h1 class="title">
-      {% endif %}
-      {% if page.bigtext %}
-        {{ page.bigtext }}
-      {% else %}
-        {{ page.title }}
-      {% endif %}
-        </h1>
-      <div class="content">
-        <!-- begin content -->
-        {{ content }}
-        <!-- end content -->
-      </div>
-
-      <div class="footer">
-        <div class="contactleft">
-          <p>
-            Quint Guvernator<br />
-            Norfolk, VA, USA
-          </p>
-        </div>
-        <div class="contactright">
-          <p>
-            quintus.public <small>AT</small> gmail.com<br />
-            <a class="extra" href="https://github.com/qguv">github.com/qguv</a>
-          </p>
-        </div>
-      </div>
-      <div class="navigation"><a href="#" class="extra">&mdash;&nbsp;&nbsp;jump to top&nbsp;&nbsp;&mdash;</a></div>
-
-    </div>
-  </body>
-</html>
