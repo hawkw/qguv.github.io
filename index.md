@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Quint Guvernator
-bigtext: Quint<br />Guvernator
+bigtext: Quint Guvernator
 pic: http://www.gravatar.com/avatar/c2d2abfc46bfed42a29b1a44cc6f9c9c?s=120
 picalt: a picture of Quint Guvernator
 ---

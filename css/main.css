@@ -34,19 +34,21 @@ h1 {
   font-weight: 900;
 }
 
-h1.title {
-  margin-top: .4em;
-  text-align: center;
-  font-style: italic;
+h1.title, h1.halftitle {
   font-weight: 900;
 }
 
+h1.title {
+  margin-top: .4em;
+  text-align: center;
+}
+
 h1.halftitle {
+  width: 430px;
   margin-top: 0em;
   margin-left: 0em;
   text-align: right;
   float: right;
-  font-weight: 900;
 }
 
 h2 {
@@ -71,11 +73,11 @@ h4 {
   margin-bottom: .6em;
 }
 
-p {
+.content p {
+  clear: both;
   margin: 1em 0;
   text-align: justify;
   line-height: 2;
-  clear: both;
 }
 
 a         { color: #00a; }
@@ -86,6 +88,14 @@ img.titleimage {
   float: left;
   border:2px solid black;
   border-radius:8px;
+}
+
+div.highlight {
+  border:5px solid #002B36;
+  border-radius:10px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.3em;
 }
 
 /*** site ***/
@@ -101,30 +111,9 @@ img.titleimage {
   margin-bottom: 1em;
  }
 
- .header a {
+.header a {
    font-weight: bold;
    text-decoration: none;
-}
-
-.title {
-  display: inline-block;
-}
-
-.title a, .halftitle a {
-  color: #a00;
-}
-
-.title a:hover, .halftitle a:hover {
-  color: #000;
-}
-
-.header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.header a.extra:hover {
-  color: #000;
 }
 
 .meta {
@@ -136,51 +125,63 @@ img.titleimage {
   font-family: "Merriweather Sans", "Droid Sans", sans-serif;
   color: #666;
   border-top: 4px solid #eee;
-  margin-top: 2em;
+  margin-top: 2.5em;
+  margin-bottom: 3em;
+  padding-top: 1em;
   overflow: hidden;
 }
 
-.footer .contact {
-  float: left;
-  margin-right: 3em;
+.footer .contactleft, .footer .contactright {
+  width: 49%;
 }
 
-.footer .contact a {
+.footer .contactleft {
+  text-align: right !important;
+  float: left;
+  margin-right: 1%;
+}
+
+.footer .contactright {
+  text-align: left !important;
+  float: right;
+  margin-left: 1%;
+}
+
+.title a, .halftitle a {
+  color: #a00;
+}
+
+.title a:hover, .halftitle a:hover {
+  color: #000;
+}
+
+a.extra {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer a.extra {
   color: #8085C1;
 }
 
-/*** posts ***/
-
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+a.extra:hover {
+  color: #000;
 }
 
-.post ul, .post ol {
-  margin-left: 1.35em;
+.header a.extra {
+  margin-left: 1em;
 }
 
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
+.navigation {
+  margin-top: 1em;
+  margin-bottom: 0;
+  position: relative;
+  text-align: center;
+  font-size: 70%;
+  text-transform: uppercase;
+  font-family: "Merriweather Sans", "Droid Sans", sans-serif;
+  line-height: 0;
 }
-
-.post pre code {
-  border: none;
-}
-
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
-}
-
 
 /*** lists ***/
 
@@ -203,7 +204,6 @@ ul li:before {
   margin-left: -1em;
   font-weight: bold;
 }
-
 
 ul.posts {
   content: "–";
