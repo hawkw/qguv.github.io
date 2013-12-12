@@ -1,3 +1,4 @@
 name: Quint Guvernator
 markdown: redcarpet
 pygments: true
+excerpt_separator: N/A-------N/A... Workaround for https://github.com/mojombo/jekyll/issues/1401
