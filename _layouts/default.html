@@ -35,21 +35,16 @@
                         </a>
                     {% endif %}
                     <h1 class="halftitle">
-                        {% if page.bigtext %}
-                            {{ page.bigtext }}
-                        {% else %}
-                            {{ page.title }}
-                        {% endif %}
-                    </h1>
                 {% else %}
                     <h1 class="title">
+                {% endif %}
                         {% if page.bigtext %}
                             {{ page.bigtext }}
                         {% else %}
                             {{ page.title }}
                         {% endif %}
                     </h1>
-                {% endif %}
+                    <div></div> <!-- resets float property -->
 
             {{ content }}
 

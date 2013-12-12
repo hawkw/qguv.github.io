@@ -76,26 +76,6 @@ img.titleimage {
 
 /*****************************************************************************/
 /*
-/* Home
-/*
-/*****************************************************************************/
-.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-.posts li {
-  line-height: 1.75em;
-}
-
-.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-}
-
-/*****************************************************************************/
-/*
 /* Site
 /*
 /*****************************************************************************/
@@ -219,6 +199,10 @@ ul {
     padding-left: 3em;
 }
 
+li {
+    line-height: 1.5;
+}
+
 ul li:before {
     display: inline-block;
     content: "–";
@@ -227,7 +211,10 @@ ul li:before {
     font-weight: bold;
 }
 
-li {
-    line-height: 1.5;
+
+ul.posts {
+    content: "–";
+    margin-left: -1em;
+    font-weight: bold;
 }
 
