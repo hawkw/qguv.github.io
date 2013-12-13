@@ -21,11 +21,12 @@
   <body>
     <div class="site">
 
-      <div class="header">
+      <div class="top-menu">
         <a class="extra" href="/">main</a>
         <a class="extra" href="https://github.com/qguv/">github</a>
         <a class="extra" href="https://aur.archlinux.org/packages/?SeB=m&K=qguv">AUR submissions</a>
       </div>
+      <div class="header">
       {% if page.pic %}
         {% if page.piclink %}
           <a href="{{ page.piclink }}">
@@ -49,6 +50,7 @@
         {{ page.title }}
       {% endif %}
         </h1>
+      </div>
       <!-- begin subtemplate -->
       {{ content }}
       <!-- end subtemplate -->
