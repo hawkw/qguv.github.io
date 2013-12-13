@@ -2,8 +2,18 @@
 layout: post
 title: "Syntax Highlighting Test"
 date:   2013-12-12 16:15:00
-categories: test code programming
+author: Quint
+authorlink: http://lmgtfy.com/
+vim: si:et:ts=2:sw=2
+category: test
+tags:
+- test
+- code
+- programming
 ---
+
+I am testing the text feature now.
+Our neural pathways have become accustomed to your sensory input patterns. Sure. You'd be surprised how far a hug goes with Geordi, or Worf. Computer, belay that order. Shields up! Rrrrred alert! Wait a minute - you've been declared dead. You can't give orders around here. Fate. It protects fools, little children, and ships named "Enterprise." Talk about going nowhere fast. In all trust, there is the possibility for betrayal. Your head is not an artifact! Fear is the true enemy, the only enemy. They were just sucked into space. We could cause a diplomatic crisis. Take the ship into the Neutral Zone Sorry, Data. When has justice ever been as simple as a rule book? We have a saboteur aboard. But the probability of making a six is no greater than that of rolling a seven. Smooth as an android's bottom, eh, Data? I can't. As much as I care about you, my first duty is to the ship. I suggest you drop it, Mr. Data. Yes, absolutely, I do indeed concur, wholeheartedly! I am your worst nightmare! I've had twelve years to think about it. And if I had it to do over again, I would have grabbed the phaser and pointed it at you instead of them. I guess it's better to be lucky than good. And blowing into maximum warp speed, you appeared for an instant to be in two places at once. Well, that's certainly good to know.
 
 {% highlight python3 linenos %}
 
@@ -50,4 +60,7 @@ class Stack:
         print(str(backList))
 
 {% endhighlight %}
+
+I am testing the text feature now.
+Our neural pathways have become accustomed to your sensory input patterns. Sure. You'd be surprised how far a hug goes with Geordi, or Worf. Computer, belay that order. Shields up! Rrrrred alert! Wait a minute - you've been declared dead. You can't give orders around here. Fate. It protects fools, little children, and ships named "Enterprise." Talk about going nowhere fast. In all trust, there is the possibility for betrayal. Your head is not an artifact! Fear is the true enemy, the only enemy. They were just sucked into space. We could cause a diplomatic crisis. Take the ship into the Neutral Zone Sorry, Data. When has justice ever been as simple as a rule book? We have a saboteur aboard. But the probability of making a six is no greater than that of rolling a seven. Smooth as an android's bottom, eh, Data? I can't. As much as I care about you, my first duty is to the ship. I suggest you drop it, Mr. Data. Yes, absolutely, I do indeed concur, wholeheartedly! I am your worst nightmare! I've had twelve years to think about it. And if I had it to do over again, I would have grabbed the phaser and pointed it at you instead of them. I guess it's better to be lucky than good. And blowing into maximum warp speed, you appeared for an instant to be in two places at once. Well, that's certainly good to know.
 
