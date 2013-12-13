@@ -11,7 +11,7 @@ I write [open-source software](#open-source-projects) as a hobby and to improve 
 
 [WM]: http://www.wm.edu/
 
-## Open-Source Projects <a name="open-source-projects"></a>
+## Open-Source Projects <a id="open-source-projects"></a>
 #### Released and Maintained
 - [rpcalc](http://qguv.github.io/rpcalc): a reverse polish notation calculator written in Python 3
 - [loadaverage](https://github.com/qguv/loadaverage): simple multi-purpose adjusted load averages
