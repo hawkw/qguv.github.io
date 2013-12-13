@@ -7,7 +7,6 @@ authorlink: http://lmgtfy.com/
 vim: si:et:ts=2:sw=2
 category: test
 tags:
-- test
 - code
 - programming
 ---
