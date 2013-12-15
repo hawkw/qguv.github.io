@@ -1,7 +1,7 @@
 /*
   Main style for http://qguv.github.io/
-  (heavily) modified from Jekyll's default template.
   vim:si:et:ts=2:sw=2
+  (heavily) modified from Jekyll's default template.
  */
 
 @import url(http://fonts.googleapis.com/css?family=Alegreya:900,700italic,700|Alegreya+SC:900,700italic,700|Merriweather:400,400italic,700|Merriweather+Sans:400,400italic,700);
@@ -195,13 +195,13 @@ div.footer {
 }
 
 .footer .contactleft {
-  text-align: right !important;
+  text-align: right;
   float: left;
   margin-right: 1%;
 }
 
 .footer .contactright {
-  text-align: left !important;
+  text-align: left;
   float: right;
   margin-left: 1%;
 }
