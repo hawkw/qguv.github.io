@@ -112,7 +112,7 @@ div.content {
 .site {
   font-size: 115%;
   width: 42em;
-  margin: 3em auto 2em;
+  margin: 2em auto;
 }
 
 div.top-menu, div.footer {
@@ -184,8 +184,7 @@ div.footer {
   font-family: "Merriweather Sans", "Droid Sans", sans-serif;
   color: #666;
   border-top: 4px solid #eee;
-  margin-top: 2.5em;
-  margin-bottom: 3em;
+  margin: 2.5em auto 1em;
   padding-top: 1em;
   line-height: 1.5;
 }
@@ -231,15 +230,15 @@ a.extra:hover {
   color: #000;
 }
 
-.navigation {
-  margin-top: 1em;
-  margin-bottom: 0;
-  position: relative;
+p.navigation {
+  clear: both;
   text-align: center;
-  font-size: 70%;
+  width: 100%;
+  padding-top: 2em;
+  font-size: 80%;
   text-transform: uppercase;
   font-family: "Merriweather Sans", "Droid Sans", sans-serif;
-  line-height: 0;
+  line-height: 1;
 }
 
 /*** lists ***/
