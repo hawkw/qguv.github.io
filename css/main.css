@@ -222,7 +222,7 @@ a.extra {
   margin-left: 1em;
 }
 
-.footer a.extra, .below-post a.extra {
+.contact-left a.extra, .contact-right a.extra, .below-post a.extra {
   color: #8085C1;
 }
 
