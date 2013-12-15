@@ -189,17 +189,17 @@ div.footer {
   line-height: 1.5;
 }
 
-.footer .contactleft, .footer .contactright {
+.footer .contact-left, .footer .contact-right {
   width: 49%;
 }
 
-.footer .contactleft {
+.footer .contact-left {
   text-align: right;
   float: left;
   margin-right: 1%;
 }
 
-.footer .contactright {
+.footer .contact-right {
   text-align: left;
   float: right;
   margin-left: 1%;
