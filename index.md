@@ -13,7 +13,12 @@ I write [open-source software](#open-source-projects) as a hobby and to improve 
 
 ## Open-Source Projects <a id="open-source-projects"></a>
 #### Released and Maintained
-- [rpcalc](http://qguv.github.io/rpcalc): a reverse polish notation calculator written in Python 3
-- [loadaverage](https://github.com/qguv/loadaverage): simple multi-purpose adjusted load averages
-- [source](http://nascifi.com/src): a source code repository forked from [GitLab](http://gitlab.org/)
+- [rpcalc][]: stack-based reverse polish calculator _(Python 3)_
+- [git-gitlab-init][]: git extension initializes Gitlab repos from git CLI _(Go/Golang)_
+- [source][]: source code repository forked from [GitLab](http://gitlab.org/)
+- [loadaverage][]: simple multi-purpose core-adjusted load averages _(Python 3)_
 
+[rpcalc]: http://qguv.github.io/rpcalc
+[git-gitlab-init]: https://github.com/qguv/git-gitlab-init
+[source]: http://src.nascifi.com
+[loadaverage]: https://github.com/qguv/loadaverage
