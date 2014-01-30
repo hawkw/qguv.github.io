@@ -17,6 +17,3 @@ I write [open-source software](#open-source-projects) as a hobby and to improve 
 - [loadaverage](https://github.com/qguv/loadaverage): simple multi-purpose adjusted load averages
 - [source](http://nascifi.com/src): a source code repository forked from [GitLab](http://gitlab.org/)
 
-#### In Development
-- [rpgo](https://github.com/qguv/rpgo): a reverse polish notation calculator written in Go
-
