@@ -14,8 +14,8 @@ I write [open-source software](#open-source-projects) as a hobby and to improve 
 ## Open-Source Projects <a id="open-source-projects"></a>
 #### Released and Maintained
 - [rpcalc][]: stack-based reverse polish calculator _(Python 3)_
-- [git-gitlab-init][]: git extension initializes Gitlab repos from git CLI _(Go/Golang)_
 - [source][]: source code repository forked from [GitLab](http://gitlab.org/)
+- [git-gitlab-init][]: git extension initializes Gitlab repos from git CLI _(Go/Golang)_
 - [loadaverage][]: simple multi-purpose core-adjusted load averages _(Python 3)_
 
 [rpcalc]: http://qguv.github.io/rpcalc
