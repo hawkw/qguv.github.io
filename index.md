@@ -12,13 +12,23 @@ I write [open-source software](#open-source-projects) as a hobby and to improve 
 [WM]: http://www.wm.edu/
 
 ## Open-Source Projects <a id="open-source-projects"></a>
-#### Released and Maintained
-- [rpcalc][]: stack-based reverse polish calculator _(Python 3)_
-- [source][]: source code repository forked from [GitLab](http://gitlab.org/)
-- [git-gitlab-init][]: git extension initializes Gitlab repos from git CLI _(Go/Golang)_
-- [loadaverage][]: simple multi-purpose core-adjusted load averages _(Python 3)_
 
-[rpcalc]: http://qguv.github.io/rpcalc
-[git-gitlab-init]: https://github.com/qguv/git-gitlab-init
+#### Original work
+
+ - [Pennant][]: William and Mary course list API (_Python 3,_ Spring 2014)
+ - [source][]: source code repository forked from [GitLab](http://gitlab.org/) (Winter 2014)
+ - [git-gitlab-init][]: git extension initializes Gitlab repos from git CLI (_Go/Golang,_ Winter 2014)
+ - [loadaverage][]: simple multi-purpose core-adjusted load averages (_Python 3_, Fall 2013)
+ - [rpcalc][]: stack-based reverse polish calculator (_Python 3,_ Summer 2013)
+
+[Pennant]: https://github.com/wm-pennant/pennant
 [source]: http://src.nascifi.com
+[git-gitlab-init]: https://github.com/qguv/git-gitlab-init
 [loadaverage]: https://github.com/qguv/loadaverage
+[rpcalc]: http://qguv.github.io/rpcalc
+
+#### Team contributions
+
+ - [pullup][]: Hackernews clone you join by pull request
+
+[pullup]: http://pullup.herokuapp.com
