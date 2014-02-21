@@ -8,7 +8,7 @@ picalt: a picture of Quint Guvernator
 
 I am from Norfolk, VA, currently studying Linguistics and Computer Science at [the College of William and Mary][WM] in Williamsburg, VA.
 I write [open-source software](#open-source-projects) as a hobby and to improve my programming prowess.
-I [design the sound](sound.html) for independent films at W&M.
+I [design sound](sound.html) for independent films at W&M.
 
 [WM]: http://www.wm.edu/
 
