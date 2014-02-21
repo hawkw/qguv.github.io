@@ -1,6 +1,9 @@
 ---
 layout: default
-title: Sound & Music
+title: Sound Design & Theatrics
+bigtext: Sound Design<br />& Theatrics
+pic: tink.png
+picalt: Tinkerbell and Peter Pan
 ---
 
 At William and Mary, I work with independent film teams to design original scoring and sound.

@@ -26,12 +26,11 @@
         <a class="extra" href="https://github.com/qguv/">github</a>
         <a class="extra" href="https://aur.archlinux.org/packages/?SeB=m&amp;K=qguv">AUR</a>
       </div>
-      <div class="header">
       {% if page.pic %}
+        <div class="picheader">
         {% if page.piclink %}
           <a href="{{ page.piclink }}">
         {% endif %}
-        <br />
         {% if page.picalt %}
           <img class="titleimage" src="{{ page.pic }}" alt="{{ page.picalt }}">
         {% else %}
@@ -40,17 +39,22 @@
         {% if page.piclink %}
           </a>
         {% endif %}
-        <h1 class="halftitle">
+          <div class="halftitle">
+          <h1 class="halftitle">
       {% else %}
-        <h1 class="title">
+        <div class="textheader">
+          <h1 class="title">
       {% endif %}
       {% if page.bigtext %}
         {{ page.bigtext }}
       {% else %}
         {{ page.title }}
       {% endif %}
-        </h1>
-      </div>
+          </h1>
+      {% if page.pic %}
+          </div>
+      {% endif %}
+        </div>
       <!-- begin subtemplate -->
       {{ content }}
       <!-- end subtemplate -->
