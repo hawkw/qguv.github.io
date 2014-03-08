@@ -30,6 +30,6 @@ I [design sound](sound.html) for independent films at W&M.
 
 #### Team contributions
 
- - [pullup][]: Hackernews clone you join by pull request
+ - [pullup][]: Hackernews clone you join by pull request (_node.js, CSS &amp; HTML5_, Winter 2014)
 
 [pullup]: http://pullup.herokuapp.com
