@@ -30,6 +30,8 @@ I [design sound](sound.html) for independent films at W&M.
 
 #### Team contributions
 
+ - [CS241][]: _Data Structures_ course at W&M (_Python 2,_ 2013&ndash;14)
  - [pullup][]: Hackernews clone you join by pull request (_node.js, CSS &amp; HTML5_, Winter 2014)
 
+[CS241]: https://github.com/rfdickerson/CS241
 [pullup]: http://pullup.herokuapp.com
