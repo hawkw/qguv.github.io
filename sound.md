@@ -14,7 +14,7 @@ From 2009&ndash;13, I worked at [Norfolk Academy's theater program][NA theater] 
 - _[Tea Time][]_: scoring and sound design (Winter 2013&ndash;14)
   - premiered 15 Feb. 2014 at the [William and Mary Global Film Festival][GFF]
 
-[Tea Time]: https://www.youtube.com/watch?v=9nlef_4igaU
+[Tea Time]: http://vimeo.com/86461120
 [GFF]: http://filmfestival.wm.edu/
 
 #### Theatrical productions
