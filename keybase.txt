@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/qguv
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://qguv.github.io
+  * I am qguv (https://keybase.io/qguv) on keybase.
+  * I have a public key with fingerprint 6930 297D 7498 1CE4 BC14  E31C 6413 AF72 2F65 C3B4
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "6930297d74981ce4bc14e31c6413af722f65c3b4",
+            "host": "keybase.io",
+            "key_id": "6413af722f65c3b4",
+            "uid": "8ca8eb4fbc3686bf84e54f0411be3700",
+            "username": "qguv"
+        },
+        "service": {
+            "hostname": "qguv.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1406654199,
+    "expire_in": 157680000,
+    "prev": "546e58ae46cb4d659309f37899fbbd94cd7a35176b3a769d1ebb3c1c1085b8d7",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.23
+Comment: https://keybase.io/crypto
+
+yMHxAnicZZF9SBxHGMbv/IjJmaiJQtEEDGtCjuRqdm9nv+4wKohQCDRfpJwWzp3d
+2bv1dPfc3btWVGhBK4E2FcsJnvhXbCgtHA0RSzRQLZYUJFVETgqGRqg1xYjSEs8U
+o86aFAqZf4Z5n9/7PDPzTh/LdricN3YvL6/3JQLOmcnNmOP6YjrTQUBdbid8HUQE
+HWyKqoWQETVUzSJ8BCvQpFfgZA4IPCUhACUKIJqSWEDRosJ5vQrLSDQEhIcI66bd
+gW2gaKJKVcc1fAiqsu3zNh87EHhJ5BEECpRolmehwgPEAIUEFAURzZGkDZrI0MRW
+hOm2UCxOdHkIXImrEq50HMT+T60MqVY4Bl/HRw3d0iW9BWthy4qaPrvXao/a8EcI
+Bt/YBKGqyfjZuCOODFPVNcJHYVKyVNuXAiTLMoASBA+BPo6qBgqqNsFwLE/iZeeg
+OLZkAIsYXkSAlSCQWQb/naDQHC8ICoSyACSZE2mG4lhIixwryBSCkJYoiSJ5BvIy
+h/NN1KbphM+LrymGsKWphjTRihmI6Ppp8sMch9PlOJSbZQ/O4TpS9N84h+J5u1U1
+i590+/OnNmYvNqZW/xLOtzbPVwV6VjLLE98akWRWS6k+8svDO7Wnz6QHxku+5l/0
+rj0vjKk7qcR7s1dc707TPcKtkXuX3HWfa0drtw+P/lxzgrs2+0Pa6w+MpbYeN7i/
+7yXHN5f6Oxtv527cXOqMR1+WRyqaktnMxL9b7X3bn+1xT+6fepXn/yK1kDHPfZfd
+3dLf/Ddd7/xy7Wz1QEFims0Ul/0I/hiV91YeDQf0xIXC8qd/bg67i33frJZEjs/N
+e92/Dwa7F8re+bWC/2DQPxeuDhX8NvnpPwV1XzW0lTybKtJKh8Zqm3JAketqsv7B
+TPpu8uSOVZf1/vD6uid/H9vLFkU=
+=Zi95
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/qguv
+
+==================================================================
